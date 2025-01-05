@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sty.css"> <!--conectando css con html-->
+</head>
+<body>
+    <header> <!--Creación de encabezado para la página, incorporando atributos predefinidos en css, como imagen de fondo, alineacion de imagen, fondo, etc.-->
+    </header> <!--Fin de encabezado de página-->
+    <section id="cta"> <!--Creación de la sección "cta" para cuerpo de la página, incorporando atributos  css -->
+      <h1>¡Full Stack <span class="travel">Developers!</span></h1> <!--Texto de titulo "h1" de color predeterminado negro con sombreado negro, texto dentro de "span", de color verde-->
+      <h2>Únete a nuestro equipo</h2> <!--Texto de subtitulo "h2" de color predeterminado negro-->
+      <p>La comunidad de desarrolladores Full Stack Developers!</p> <!--Texto de "p" de parrafo de color predeterminado negro-->
+      <button id="cta-form">¡Quiero saber más!</button> <!--Creación de botón "cta-form" en la sección "cta", con atributos css para "button", como color naranja, color de texto blanco.  -->
+    </section> <!--Fin de sección-->
+    <section id="form"> <!--Creación de la sección "form" para cuerpo de la página, incorporando atributos css y funciones de Javascript -->
+      <h2>Contáctanos para obtener más información sobre nuestra comunidad</h2> <!--Texto de subtitulo "h2" de color predeterminado negro-->
+      <form> <!--Creación de formulario "form"-->
+        <label for="name">Nombre:</label> <!--Creación de una etiqueta "label" con identifación "name" que muestra "Nombre;" en la página -->
+        <input type="text" id="name" name="name" required> <!--Creación de una entrada de datos para la etiqueta "name" de tipo "text" -->
+        <label for="email">Correo electrónico:</label> <!--Creación de una etiqueta "label" con identifación "email" que muestra "Correo electrónico:" en la página -->
+        <input type="email" id="email" name="email" required> <!--Creación de una entrada de datos para la etiqueta "email" de tipo "email" -->
+        <label for="message">Mensaje:</label> <!--Creación de una etiqueta "label" con identifación "message" que muestra "Mensaje:" en la página -->
+        <textarea id="message" name="message" required></textarea> <!--Creación de una entrada de texto para la etiqueta "message" -->
+        <button type="button" onclick="presionarBoton()">Enviar</button> <!--Creación de un boton "button" que al recibir un click, carga la funcion javascript "presionarBoton()", muestra un texto que dice "Enviar"-->
+      </form> <!--Fin de formulario-->
+    </section> <!--Fin de sección-->
+    <footer> <!--Creación de pie de página, que incorpora atributo css-->
+      <p>&copy; 2024 FullStack Developers. Todos los derechos reservados.</p> <!--Creación de texto de párrafo "p" para el pie de página, muestra un fondo negro con un texto de color blanco que dice "2024 FullStack Developers. Todos los derechos reservados."-->
+    </footer>
+    <script src="scrt.js"></script> <!--conectando Javascript con html-->
+</body>
+</html>
